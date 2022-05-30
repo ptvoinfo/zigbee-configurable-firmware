@@ -1,8 +1,8 @@
 ## About
 
-The firmware for CC2530 and CC2531 chips  allows creating a device with a easily configurable functionality including inputs, outputs, ADC, pulse counter/generator, I2C, external sensors.
+The firmware for CC2530, CC2531, CC2652R, CC2652P, CC2652RB chips allows creating a device with a easily configurable functionality including inputs, outputs, ADC, pulse counter/generator, I2C, external sensors.
 
-The device with this firmware also works as a router.
+The device with this firmware can work as a router.
 
 The firmware also supports CC2590, CC2591, CC2592, RFX2401 amplifiers.
 
