@@ -33,6 +33,6 @@ If you configured first input pin, click and hold it for 10 seconds.
 
 [Home page](https://ptvo.info/zigbee-configurable-firmware-features/)
 
-[Download](https://ptvo.info/zigbee-switch-configurable-firmware-v2-210/#download)
+[Download](https://ptvo.info/download/ptvo-firmware-latest.zip)
 
 [Report issues](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues)
