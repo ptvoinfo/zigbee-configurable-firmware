@@ -1,4 +1,10 @@
 # Changelog
+### 2023-11-15
+
+* [+] Added new translations
+* [+] Now, you can create customer converters (quirks) for ZHA
+* [+] Some other minor improvements in the firmware configuration program.
+
 ### 2023-11-02
 
 * Small bugfixes related to custom converter creation for SCD40
