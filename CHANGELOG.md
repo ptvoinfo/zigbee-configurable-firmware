@@ -4,6 +4,9 @@
 * [+] Added new translations
 * [+] Now, you can create customer converters (quirks) for ZHA
 * [+] Some other minor improvements in the firmware configuration program.
+* [+] Added new translations
+* [+] Now, you can create customer converters (quirks) for ZHA
+* [+] Some other minor improvements in the firmware configuration program.
 
 ### 2023-11-02
 
