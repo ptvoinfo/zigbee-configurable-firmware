@@ -1,4 +1,8 @@
 # Changelog
+### 2023-11-17
+
+* [*] Updated the Chinese translation.
+
 ### 2023-11-15
 
 * [+] Added new translations
