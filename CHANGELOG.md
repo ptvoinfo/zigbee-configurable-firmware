@@ -1,4 +1,9 @@
 # Changelog
+### 2024-01-14
+
+* [*][Configurator] Some improvements in converters for Z2M to make it compatibile with the latest version.
+* [*][Configurator] Some improvements in converters for ZHA.
+
 ### 2023-12-12
 
 * [*][All chips] Improved operation of "UART sensor" (especially when there are many in the configuration).
