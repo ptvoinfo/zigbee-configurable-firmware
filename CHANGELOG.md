@@ -1,4 +1,14 @@
 # Changelog
+### 2023-12-12
+
+* [*][All chips] Improved operation of "UART sensor" (especially when there are many in the configuration).
+* [*][All chips] Improved firmware operation when "External sensor power control" is present in the configuration.
+* [-][All chips] Restored operation with multiple bi-stable relays in one configuration.
+* [+][All chips] Added the ability to set a divider for Waterius counters.
+* [-][All chips] Sometimes, LED effects could hang.
+* [*][CC2530][PSM] Improved power consumption when working with certain I2C sensors.
+* [*][Configurator] Minor fixes and improvements in the configurator.
+
 ### 2023-11-17
 
 * [*] Updated the Chinese translation.
