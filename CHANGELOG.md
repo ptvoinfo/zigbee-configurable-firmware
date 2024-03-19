@@ -1,6 +1,7 @@
 # Changelog
 ### 2024-01-14
 
+* [*][Configurator] Fixes in ZHA converters
 * [*][Configurator] Some improvements in converters for Z2M to make it compatibile with the latest version.
 * [*][Configurator] Some improvements in converters for ZHA.
 
