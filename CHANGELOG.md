@@ -1,4 +1,16 @@
 # Changelog
+### 2024-03-19
+
+* [-][CC2652] Polling for queued commands may freeze the device for several seconds.
+* [-][CC2652] Some i2c sensors didn't work. [(#265)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/265)
+* [-][CC2652][PSM] Device with inputs may freeze when it starts.
+* [-][All chips][PSM] Sensor power control pin didn't work properly is some configurations. [(#261)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/261)
+* [-][All chips][LED] It is not possible to control brightness for a non-default RGB order.
+* [+][All chips] Added support for new ultrasonic range sensors (MaxSonar, URM06, URM07, JSN-sr04t and their clones). [(#267)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/267)
+* [+][All chips] The separate firmware has been added for keypads. Up to 32 buttons in total. Binding and extended customization for the first 16 buttons. Power-saving mode. Everything is adjustable.
+* [+][All chips] The ability to control the light level, color, and color temperature through binding has been added. Single and long clicks are supported.
+* [*] Some other minor changes and improvements.
+
 ### 2024-01-14
 
 * [*][Configurator] Fixes in ZHA converters
