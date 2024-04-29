@@ -1,4 +1,16 @@
 # Changelog
+### 2024-04-29
+
+* [-][All chips] The previously added ultrasonic sensors were malfunctioning.
+* [-][All chips] Additional options for TMP102 were not working.
+* [-][All chips] Some values from devices with multiple sensors and many readings, like PZEM, might not have been reaching the coordinator.
+* [-][All chips] UART sensor did not change status to "Off" when the level sensor value was set to 0.
+* [*][All chips] For PZEM, the AC frequency is no longer read as a constant value.
+* [+][All chips] Now, for PZEM, the firmware sends a voltage value of 0 if there is no response from the sensor (phase loss).
+* [+][All chips] Now, values for current, voltage, energy, power, and CO2 are sent using standard clusters, that should improve compatibility with smart home systems. Note that the standard electricity measurement cluster is not fully supported by all tested systems. It might be more convenient to (re)create a custom converter for z2m and zha.
+* [+][All chips] Added a preset for LifeControl MCLH03 socket.
+* [+][All chips] Scale and shift coefficients have been added to the flower sensor firmware to adjust a result to specific conditions.
+
 ### 2024-04-06
 
 * [-][All chips] Data from BH1750 was delayed by one report. [(#270)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/270)
