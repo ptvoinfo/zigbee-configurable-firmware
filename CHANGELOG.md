@@ -1,4 +1,11 @@
 # Changelog
+### 2024-04-06
+
+* [-][All chips] Data from BH1750 was delayed by one report. [(#270)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/270)
+* [+][All chips] Now, for endpoints, whenever possible, their type is indicated (for example, a switch or light control). This improves compatibility with some home automation systems. Those using ZHA will need to rebuild the converter after updating the firmware.
+* [-][All chips] Missing clusters have been added for SCD40, PMSX003, and MHZ19.
+* [*][All chips]The binding commands On/Off/Toggle are only sent for single clicks.
+
 ### 2024-03-19
 
 * [-][CC2652] Polling for queued commands may freeze the device for several seconds.
