@@ -1,6 +1,7 @@
 # Changelog
 ### 2024-04-29
 
+* Updated CHANGELOG.md
 * [-][All chips] The previously added ultrasonic sensors were malfunctioning.
 * [-][All chips] Additional options for TMP102 were not working.
 * [-][All chips] Some values from devices with multiple sensors and many readings, like PZEM, might not have been reaching the coordinator.
@@ -17,6 +18,11 @@
 * [+][All chips] Now, for endpoints, whenever possible, their type is indicated (for example, a switch or light control). This improves compatibility with some home automation systems. Those using ZHA will need to rebuild the converter after updating the firmware.
 * [-][All chips] Missing clusters have been added for SCD40, PMSX003, and MHZ19.
 * [*][All chips]The binding commands On/Off/Toggle are only sent for single clicks.
+
+### 2024-04-06
+
+* Create LICENSE
+* Delete LICENSE
 
 ### 2024-03-19
 
