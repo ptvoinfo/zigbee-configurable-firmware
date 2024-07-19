@@ -1,4 +1,14 @@
 # Changelog
+### 2024-05-23
+
+* [*][Soil Moisture Sensor][CC2652] Calibration performed to ensure more accurate readings when the supply voltage changes.
+* [*][All Chips] Pulse switch. Now, correctly restores state after power loss [(#280)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/280).
+* [+][All Chips] Pulse switch. Added new settings for state on boot and when a linked button is pressed.
+* [+][All Chips] Pulse switch. Added the ability to set the interval for automatic return of the logical state in milliseconds [(#262)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/262).
+* [+][All Chips] Ultrasonic sensor. Added a new device model [(#274)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/274).
+* [-][All Chips] CO2 concentration readings are now transmitted in the correct format.
+* [+][All Chips] Added option to disable transmission of GPIO output states with periodic reports. When this option is enabled, the state is transmitted only at startup and when the state changes. This saves bandwidth, especially with numerous outputs.
+
 ### 2024-04-29
 
 * Updated CHANGELOG.md
