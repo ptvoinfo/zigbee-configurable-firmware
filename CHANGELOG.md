@@ -1,4 +1,11 @@
 # Changelog
+### 2024-07-19
+
+* [-][CC2652] Using UART or sensors with this interface could cause the device to freeze [(#257)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/257).
+* [-][All chips] It was not possible to set two different I2C or SPI sensors on different pins consecutively [(#296)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/296).
+* [+][Configurator] Added additional configuration checks before saving to a HEX file.
+* [+][Configurator] Added a correctness check for the settings of some sensors [(#298)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/298).
+
 ### 2024-05-23
 
 * [*][Soil Moisture Sensor][CC2652] Calibration performed to ensure more accurate readings when the supply voltage changes.
