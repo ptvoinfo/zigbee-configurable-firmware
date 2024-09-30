@@ -1,4 +1,12 @@
 # Changelog
+### 2024-08-19
+
+* Corrections only concern the creation of custom quirks for ZHA
+* [+][Configurator] Added compatibility with the new version of ZHA in HA.
+* [*][Configurator] When a switch was present on the first output, an incorrect device signature was formed, causing the quirk not to connect.
+* [*][Configurator] Fixed quirk generation for air quality sensors [(#287)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/287)
+* [*][Configurator] Fixes related to a quirk for UART sensors [(#279)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/279).
+
 ### 2024-07-19
 
 * [-][CC2652] Using UART or sensors with this interface could cause the device to freeze [(#257)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/257).
