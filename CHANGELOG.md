@@ -1,4 +1,16 @@
 # Changelog
+### 2024-09-30
+
+* [-][All chips] Calibration function for ACS712 restored.
+* [-][All chips] Reporting of ADC value (raw) was fixed.
+* [-][All chips] Manual reading of the UART sensor analog value did not work [(#309)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/309).
+* [-][All chips] The firmware no longer returns an error when the higher-level system tries to set the periodic report interval while this function is disabled in the configuration. It simply ignores it quietly.
+* [+][All chips] Added binding capability to a group when the PTVO device is the command source [(#156)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/156).
+* [*][CC2530] HC-SR04 sensor is now unavailable in the router mode.
+* [-][Configurator] The "Disable periodic On/Off reports" option was not saved  [(#310)](https://github.com/ptvoinfo/zigbee-configurable-firmware/issues/310).
+* [-][Configurator] Configuration for outputs 8-16 was not loaded correctly from the file.
+* [*][Configurator] Other minor improvements.
+
 ### 2024-08-19
 
 * Corrections only concern the creation of custom quirks for ZHA
