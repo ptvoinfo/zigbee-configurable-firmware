@@ -1,4 +1,8 @@
 # Changelog
+### 2024-10-27
+
+* [-][Configurator] Fixed an error while creating an external converter for firmware with a GPIO output type, different from "General".
+
 ### 2024-09-30
 
 * [-][All chips] Calibration function for ACS712 restored.
