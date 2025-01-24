@@ -1,4 +1,12 @@
 # Changelog
+### 2024-12-14
+
+* [-][All chips] Fixed an issue in the LED firmware that appeared after 2024-04-06. The firmware was almost non-functional.
+* [-][All chips] Fixed an issue with pca9685 and x9c100 that appeared after 2024-04-06.
+* [-][All chips] Fixed an issue with the pulse switch.
+* [-][Configurator] Fixed the creation of a converter for some sensors for ZHA.
+* [*][Configurator] Improved external converter generation for upcoming Z2M v2.
+
 ### 2024-10-27
 
 * [-][Configurator] Fixed an error while creating an external converter for firmware with a GPIO output type, different from "General".
