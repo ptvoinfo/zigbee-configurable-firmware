@@ -1,4 +1,9 @@
 # Changelog
+### 2025-01-24
+
+* [+][CC2652] The 16-channel firmware supports up to 16 sensors now.
+* [*] Update the French translation.
+
 ### 2024-12-14
 
 * [-][All chips] Fixed an issue in the LED firmware that appeared after 2024-04-06. The firmware was almost non-functional.
