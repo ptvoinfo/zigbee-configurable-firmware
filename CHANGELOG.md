@@ -1,4 +1,10 @@
 # Changelog
+### 2025-03-19
+
+* [*] Fixed the issue with reading data from MAX31855, MAX31865
+* [*] Fixed operation in Z2M with some configurations.
+* [+][CC2652] Added support for displays (7-segment, LCD, OLED based on SSD1306). It is now possible to display values both from connected sensors and those sent from the smart home.
+
 ### 2025-01-24
 
 * [+][CC2652] The 16-channel firmware supports up to 16 sensors now.
