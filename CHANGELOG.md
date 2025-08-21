@@ -1,4 +1,9 @@
 # Changelog
+### 2025-03-21
+
+* [*] Fixed an issue with sending battery status in certain firmware configurations for the remote control.
+* [*] Fixed issue with remote configuration of report intervals (previously, the control unit could completely disable reports).
+
 ### 2025-03-19
 
 * [*] Fixed the issue with reading data from MAX31855, MAX31865
