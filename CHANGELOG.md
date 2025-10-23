@@ -1,4 +1,9 @@
 # Changelog
+### 2025-08-21
+
+* [*] Fixed an issue when the device would hang with the periodic report was disabled.
+* [+] CC2530: Optimized the GPIO initialization process at startup. This may eliminate the relay click on some devices (this issue was not observed on CC2652).
+
 ### 2025-03-21
 
 * [*] Fixed an issue with sending battery status in certain firmware configurations for the remote control.
