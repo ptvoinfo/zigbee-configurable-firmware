@@ -1,4 +1,11 @@
 # Changelog
+### 2025-10-23
+
+* [+][All chips] Added the "Internal use" option for outputs to disable periodic reports while using data in internal automation (group switches, display output, etc.).
+* [-][CC2530] Fixed a GPIO outputs initialization bug where the saved state was not taken into account (appeared in recent versions).
+* [-][All chips] Remote interval configuration did not work if the configuration contained only sensors without GPIO.
+* [-][Configurator] The preset for the LED informer did not load, and therefore the firmware could not be built.
+
 ### 2025-08-21
 
 * [*] Fixed an issue when the device would hang with the periodic report was disabled.
