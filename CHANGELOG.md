@@ -1,4 +1,11 @@
 # Changelog
+### 2026-02-10
+
+* [*][All chips] The power-saving mode (PSM) in the firmware has been improved to provide additional energy savings. The changes are especially noticeable for CC2530 chips, which consume an excessively large amount of power in active mode.
+* [*][All chips] The time interval for sending periodic reports has been reduced.
+* [*][All chips] The mode for checking queued commands has been improved.
+* [*][All chips] Compatibility of custom converters with the new ZHA in Home Assistant 2026.2.
+
 ### 2025-10-23
 
 * [+][All chips] Added the "Internal use" option for outputs to disable periodic reports while using data in internal automation (group switches, display output, etc.).
