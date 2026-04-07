@@ -1,4 +1,9 @@
 # Changelog
+### 2026-02-20
+
+* [*] CC2652. Better power consumption and optimizations the PSM mode.
+* [*] CC2530. Fixed a bug with the fixed data polling interval in the PSM mode.
+
 ### 2026-02-10
 
 * [*][All chips] The power-saving mode (PSM) in the firmware has been improved to provide additional energy savings. The changes are especially noticeable for CC2530 chips, which consume an excessively large amount of power in active mode.
