@@ -1,4 +1,9 @@
 # Changelog
+### 2026-04-07
+
+* [All chips] The power-saving mode (PSM) in the firmware has been improved to provide additional energy savings.
+* [All chips] The approach to working with multiple DS18B20 sensors on a single bus has been changed to improve compatibility with different systems. Sensors now require a reserved endpoint (output) in the configuration, to which they will be automatically bound. See the documentation for details.
+
 ### 2026-02-20
 
 * [*] CC2652. Better power consumption and optimizations the PSM mode.
