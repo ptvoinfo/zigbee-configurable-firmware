@@ -1,4 +1,11 @@
 # Changelog
+### 2026-05-22
+
+* [-][All chips] Fixed the operating mode for working with DS18B20 (one per pin, auto-detection)
+* [-][CC2530] Restored the functionality of the 'trigger' command for GPIO.
+* [-][CC2652] Some sensors connected via UART might not have worked.
+* [-][CC2652] The firmware could incorrectly configure pins at startup.
+
 ### 2026-04-07
 
 * [All chips] The power-saving mode (PSM) in the firmware has been improved to provide additional energy savings.
