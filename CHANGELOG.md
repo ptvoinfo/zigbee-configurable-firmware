@@ -1,4 +1,10 @@
 # Changelog
+### 2026-06-17
+
+* [*] Improved custom converter generation for the latest Z2M version.
+* [*] Improved compatibility with UART sensors and MODBUS.
+* [*] Improved the Chinese translation.
+
 ### 2026-05-22
 
 * [-][All chips] Fixed the operating mode for working with DS18B20 (one per pin, auto-detection)
