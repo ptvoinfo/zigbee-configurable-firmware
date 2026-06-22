@@ -1,6 +1,7 @@
 # Changelog
 ### 2026-06-17
 
+* Change the zigbee herdsman converters version according to Z2M release version 2.12.
 * [*] Improved custom converter generation for the latest Z2M version.
 * [*] Improved compatibility with UART sensors and MODBUS.
 * [*] Improved the Chinese translation.
